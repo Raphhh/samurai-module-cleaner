@@ -1,0 +1,30 @@
+{
+    "name": "raphhh/samurai-module-cleaner",
+    "description": "Files cleaner module for Samurai",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raphaël Lefebvre",
+            "email": "raphael@raphaellefebvre.be"
+        }
+    ],
+    "keywords": [
+        "samurai"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Samurai\\Cleaner\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "raphhh/samurai": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    }
+}
