@@ -1,0 +1,10 @@
+{
+  "package": "raphhh/samurai-module-cleaner",
+  "description": "File cleaner module",
+  "dependencies": [
+
+  ],
+  "tasks": [
+    "Samurai\\Cleaner\\CleaningTask"
+  ]
+}
